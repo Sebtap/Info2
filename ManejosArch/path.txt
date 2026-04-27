@@ -1,0 +1,52 @@
+C
+\Users\sebaa\bin
+C
+\Program Files\Git\mingw64\bin
+C
+\Program Files\Git\usr\local\bin
+C
+\Program Files\Git\usr\bin
+C
+\Program Files\Git\usr\bin
+C
+\Program Files\Git\mingw64\bin
+C
+\Program Files\Git\usr\bin
+C
+\Users\sebaa\bin
+C
+\Program Files\Microsoft SDKs\Azure\CLI2\wbin
+C
+\Windows\system32
+C
+\Windows
+C
+\Windows\System32\Wbem
+C
+\Windows\System32\WindowsPowerShell\v1.0
+C
+\Windows\System32\OpenSSH
+C
+\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR
+C
+\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+C
+\Program Files\dotnet
+C
+\Program Files\Cloudflare\Cloudflare WARP
+C
+\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit
+C
+\Program Files\Git\cmd
+C
+\Users\sebaa\AppData\Local\Microsoft\WindowsApps
+C
+\Users\sebaa\AppData\Local\Programs\Microsoft VS Code\bin
+C
+\Users\sebaa\.dotnet\tools
+C
+\mingw64\bin
+C
+\Program Files\Git\usr\bin\vendor_perl
+C
+\Program Files\Git\usr\bin\core_perl
