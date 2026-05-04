@@ -4,6 +4,8 @@
 "environment" del sistema.*/
 
 // El main puede recibir argc, argv y también envp (environment pointer)
+//envp es un array de strings que contiene las variables de entorno, cada string tiene el formato "NOMBRE=VALOR". El último elemento de envp es NULL para indicar el final del array.
+//envp puede que no este soportado en todos los sistemas o compiladores, pero es común en sistemas tipo Unix/Linux. En otros sistemas, las variables de entorno se pueden acceder a través de funciones específicas como getenv().
 int main(int argc, char *argv[], char *envp[]) {
     int i = 0;
 
