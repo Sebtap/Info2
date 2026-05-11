@@ -4,7 +4,7 @@
 
 int main() {
     // Buscamos en el sistema el valor asociado a la clave "MIVAR"
-    char *valor = getenv("MIVAR");
+    char *valor = getenv("MIVAR"); //*valor es un puntero a char que apunta al valor de la variable de entorno MIVAR, si no existe, getenv devuelve NULL
 
     // getenv devuelve NULL si la variable no existe en el entorno actual
     if (valor == NULL) {
