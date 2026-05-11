@@ -22,8 +22,8 @@ int main() {
     }
 
     // Leemos el archivo de origen caracter por caracter y lo escribimos en el destino
-    while ((caracter = fgetc(archivoOrigen)) != EOF) {
-        fputc(caracter, archivoDestino);
+    while ((caracter = fgetc(archivoOrigen)) != EOF) { //fgetc lee un caracter del archivo origen y lo asigna a la variable 'caracter'. El bucle continúa hasta que se alcanza el final del archivo (EOF).
+        fputc(caracter, archivoDestino); //fputc escribe un caracter en el archivo destino
     }
 
     // Cerramos ambos archivos
