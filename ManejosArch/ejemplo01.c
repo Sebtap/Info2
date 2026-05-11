@@ -4,7 +4,7 @@
 //Hacer un programa que cuente la cantidad de bytes 
 //que contiene un archivo de texto. 
 
-/*Un stream (flujo) tuberia de datos que conecta tu programa con el mundo externo
+/*Un stream (flujo) tuberia de datos que conecta tu programa con el mundo externo. Es una abstracción que representa una secuencia de datos que se pueden leer o escribir. En C, los streams se manejan a través de la biblioteca estándar de entrada/salida (stdio.h) y se representan mediante la estructura FILE.
 Las estandar son stdin, stdout y stderr que representan respectivamente la entrada estándar, la salida estándar y la salida de error.
 Son macros que representan flujos de datos predefinidos en FILE*, que es una estructura que contiene información sobre el flujo, como su estado, posición actual, etc.
 Que ese FILE? Es la interfaz que permite redireccinar flujos de datos. Es un struct que representa flujo de datos, trabajos a partir de funciones como fgetc,fgets, fprintf,fread,etc. para acceder a los datos. */
@@ -31,7 +31,7 @@ int main() {
     // Verificamos si el archivo se abrió correctamente
     if (fp == NULL) {
         perror("No se pudo abrir el archivo. Asegurate de que 'archivo.txt' exista.\n");
-        // Muestra un mensaje de error más detallado
+        // Muestra un mensaje de error más detallado que printf, basado en el valor actual de errno, que se establece automáticamente cuando fopen falla. Esto proporciona información específica sobre por qué no se pudo abrir el archivo (por ejemplo, si el archivo no existe, si hay un problema de permisos, etc.).
         return 1;
     }
 
